@@ -1,0 +1,17 @@
+{
+  "name": "indahl-reproduce",
+  "owner": {
+    "name": "Heuremen LLC",
+    "url": "https://indahl.ai"
+  },
+  "plugins": [
+    {
+      "name": "indahl-reproduce",
+      "source": "./",
+      "description": "Recompute an indahl.ai desk headline with its reproduce kit and check the output against the published sha256. Kits with bundled inputs run offline, others fetch inputs from the original source and verify them by sha256. Nothing runs without your approval of the exact commit.",
+      "version": "1.0.0",
+      "category": "research",
+      "homepage": "https://indahl.ai/reproduce"
+    }
+  ]
+}
